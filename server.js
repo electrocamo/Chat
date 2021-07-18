@@ -19,3 +19,7 @@ server.on('connection', (socket)=>{
 server.listen(3006, ()=>{
 console.log('El servidor esta escuchando por el puerto ',server.address().port);
 })
+
+function noHaceNada(){
+    console.log("HOLA MUNDO");
+}
